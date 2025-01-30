@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/css/var.css">
+        <link rel="stylesheet" href="/assets/css/elements.css">
+
+        <link rel="stylesheet" href="/assets/css/classes.css">
+
+        <link rel="stylesheet" href="/assets/css/menu.css">
+        <link rel="stylesheet" href="/assets/css/landing.css">
+</head>
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button"> 
+
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false"><a href="#home">HOME</a></h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false">
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#grid-one">Pilares Criativos</a></li>
+                    <li><a href="#gallery">Galeria</a></li>
+                    <li><a href="#grid-two">Minha Arte</a></li>
+                    <li><a href="#contact">Contate-me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+
+    <section class="home main-bg section" id="home">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Capturando momentos através das lentes</h2>
+                <p>Há 4 anos transformo olhares comuns em memórias extraordinárias usando apenas meu iPhone. Da luz suave do amanhecer aos detalhes urbanos, minha missão é revelar a beleza escondida no cotidiano.
+
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="/assets/img/undraw_landscape-photographer_e84n.svg" alt="Tirando foto"> 
+            </div>
+        </div>
+    </section>
+ 
+    <section class="white-bg section " id="intro">
+        <div class="main-content top3-content">
+            <h2>Minha Jornada Fotográfica</h2>
+            <p>Tudo começou como um hobby em 2020, quando descobri o potencial escondido no meu smartphone. Desde então, venho desenvolvendo técnicas mobile que desafiam as convenções da fotografia tradicional.</p>
+
+            <p>Especializei-me em capturar a essência de momentos efêmeros - desde a delicadeza de um orvalho matinal até a energia pulsante da vida urbana. Meu iPhone se tornou uma extensão dos meus olhos, sempre pronto para congelar histórias em pixels.</p>
+        </div>
+    </section>
+
+    <section id="grid-one" class="grid-one main-bg section">
+        <div class=" main-content grid-one-content">
+            <h2 class="grid-main-heading">Meus Pilares</h2>
+            <p grid="grid-description">O que define meu trabalho</p>
+            <div class="grid">
+                <article>
+                    <h3>Visão Mobile</h3>
+                    <p>Domínio completo das técnicas de fotografia com smartphone, desde ajustes manuais até pós-produção especializada para dispositivos móveis.</p>
+                </article>
+                <article>
+                    <h3>Olhar Natural</h3>
+                    <p>Prefiro a autenticidade à perfeição artificial. Meu estilo valoriza a composição orgânica e a luz natural em seu estado mais puro.</p>
+                </article>
+                <article>
+                    <h3>Acessibilidade</h3>
+                    <p>Acredito que a arte deve ser democrática. Ofereço consultorias para ajudar iniciantes a explorarem o potencial de seus dispositivos.</p>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="grid-one white-bg section">
+        <div class=" main-content grid-one-content">
+            <h2 class="grid-main-heading">Gallery</h2>
+            <p grid="grid-description">Alguns de meus trabalhos</p>
+
+
+            <div class="grid ">
+                <div class="gallery-img">
+                    <img src="/assets/img/Design sem nome (2).png" alt="random">
+                </div>
+                <div class="gallery-img">
+                    <img src="/assets/img/Design sem nome (3).png" alt="random">
+                </div >
+                <div class="gallery-img">
+                    <img src="/assets/img/Design sem nome (4).png" alt="random">
+                </div>
+                <div class="gallery-img">
+                    <img src="/assets/img/Design sem nome (5).png" alt="random">
+                </div>
+                <div class="gallery-img">
+                    <img src="/assets/img/Design sem nome (6).png" alt="random">
+                </div>
+                <div class="gallery-img">
+                    <img src="/assets/img/Design sem nome (7).png" alt="random">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="grid-two" class="grid-one main-bg section">
+        <div class=" main-content grid-one-content">
+            <h2 class="grid-main-heading">Inspirações à Beira-Mar</h2>
+            <p grid="grid-description">A natureza como minha maior inspiração</p>
+            <div class="grid">
+                <article>
+                    <h3>Conexão com o Mar</h3>
+                    <p>Mais de 70% das fotos que você viu acima foram capturadas na orla. A relação entre o efêmero das ondas e a permanência das rochas me fascina, traduzindo em composições que celebram a força tranquila do oceano.</p>
+                </article>
+                <article>
+                    <h3>Paleta de Cores Naturais</h3>
+                    <p>O desafio de registrar os dourados do pôr-do-sol, os azuis profundos do mar e os verdes vibrantes da vegetação costeira me ensinou a extrair beleza crua diretamente da natureza, sem filtros artificiais.</p>
+                </article>
+                <article>
+                    <h3>Técnicas de Captura</h3>
+                    <p>Desenvolvi métodos exclusivos para fotografia mobile em ambientes dinâmicos: desde o controle de reflexos na água até a estabilização manual para capturar o movimento das ondas com clareza impressionante.</p>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="home main-bg section" id="contact">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Vamos Criar Juntos</h2>
+                <p>Seja para capturar a essência do seu projeto, discutir colaborações criativas ou simplesmente trocar ideias sobre fotografia mobile, estou sempre aberto a novas conexões.</p>
+                <p>📱 Envie um direct no <a href="[seu-instagram]" target="_blank">Instagram</a><br>
+                📧 Ou um email para <strong>contato@fotomobile.com</strong></p>
+                <p>Costumo responder em até 24 horas. Para orçamentos, inclua detalhes como localização, tipo de projeto e preferências estéticas - isso ajuda a criarmos algo verdadeiramente único.</p>
+            </div>
+            <div class="intro-img">
+                <img src="/assets/img/undraw_contact-us_kcoa.svg" alt="contact us"> 
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <footer>
+            <div>
+                <a href="https://github.com/jotabrand1" target="_blank"><img src="/assets/img/icons8-github.svg"></a>
+            </div>
+
+
+            <div>
+                <a href="https://www.linkedin.com/in/jo%C3%A3o-paulo-brand%C3%A3o-3294902ab/" target="_blank"><img src="/assets/img/icons8-linkedin.svg"></a>
+            </div>
+
+
+        </footer>
+    </section>
+
+    <a class="back-to-top" href="#home"><svg width="20" height="20" viewBox="0 0 24 24">
+        <path d="M12 2 L2 22 L22 22 Z" fill="#333" />
+    </svg></a>
+
+</body>
+</html>
